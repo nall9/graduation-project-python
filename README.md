@@ -111,6 +111,18 @@ The system can be configured by modifying the following:
 
 ## License
 
+
+
+## Screenshot
+
+Here is the main interface of the Malware Classification System:
+
+<img width="1469" height="969" alt="لقطة شاشة 2025-08-26 105849" src="https://github.com/user-attachments/assets/bf0e039e-50d0-4e2d-88e1-d32caf627617" />
+
+
+
+
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Disclaimer
