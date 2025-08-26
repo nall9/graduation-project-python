@@ -1,0 +1,72 @@
+{
+  "Static Analysis": {
+    "file_info": {
+      "size": 2670,
+      "md5": "c43df3edd3b856c0771c73a79c373276",
+      "sha256": "deeab28df3798dcaa0aa2839f756f217a58867391549fa2706f9a4d7d803938e",
+      "type": "application/x-dosexec"
+    },
+    "yara_matches": [
+      {
+        "rule": "basic_rules.yar",
+        "match": "Suspicious_Behaviors"
+      }
+    ],
+    "pe_analysis": {
+      "error": "'Invalid e_lfanew value, probably not a PE file'"
+    },
+    "entropy": 6.604371540811391,
+    "suspicious_strings": [
+      "cmd.exe",
+      "powershell.exe",
+      "http://",
+      "CreateRemoteThread",
+      "VirtualAlloc",
+      "WriteProcessMemory",
+      "RegCreateKey",
+      "ShellExecute"
+    ]
+  },
+  "Dynamic Analysis": {
+    "process_behavior": {
+      "pid": null,
+      "cpu_usage": [],
+      "memory_usage": [],
+      "duration": 0,
+      "exit_code": null,
+      "error": "[WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher"
+    },
+    "network_activity": [],
+    "file_operations": [],
+    "registry_operations": [],
+    "system_calls": []
+  },
+  "ML Classification": {
+    "prediction": "benign",
+    "probability": 0.46,
+    "features": [
+      [
+        2670.0,
+        6.60437154081139,
+        0.8896135838611107,
+        0.257585728304049,
+        0.31812532096890056,
+        0.6844770576435459,
+        0.49737697672068826,
+        0.04045408406594175,
+        0.9700650527912291,
+        0.5425405895409301
+      ]
+    ],
+    "error": null
+  },
+  "Threat Intelligence": {
+    "is_malware": false,
+    "threat_level": "low",
+    "threat_type": null,
+    "first_seen": null,
+    "last_seen": null,
+    "detection_rate": 0.0,
+    "sources": []
+  }
+}
