@@ -123,8 +123,8 @@ Here is the main interface of the Malware Classification System:
 
 
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Disclaimer
 
 This tool is for educational and research purposes only. Always follow proper security protocols and obtain necessary permissions before analyzing potentially malicious files. 
+
